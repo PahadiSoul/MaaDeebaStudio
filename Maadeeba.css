@@ -1,0 +1,189 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(''); /* Replace with the path to your background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+a {
+    text-emphasis: none;
+}
+
+header {
+    background-color:#0b191c;
+    color:#b9802b
+    padding: 1em;
+    text-align: center;
+    text-decoration: none;
+    padding: 50px;
+}
+
+.logo img {
+    height: 140px; /* Adjust the height of your logo as needed */
+    margin-right: 10px; /* Adjust the margin for spacing */
+}
+
+h1 {
+    margin: 0; /* Remove default margin */
+}
+
+main{
+    border: 2px solid black;
+    background-color: white;
+    padding: 50px; /* Adjust padding as needed */
+    text-align: center;
+}
+.Text{
+color: #b9802b;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #b9802b;
+}
+
+.hero {
+    background-image: url('');
+    background-size: cover;
+    color: black;
+    text-align: center;
+    padding: 100px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e8491d;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.portfolio,
+.services,
+.contact {
+    padding: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #333;
+    color: black;
+    text-align: center;
+    padding: 1em;
+}
+
+.portfolio-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: black;
+}
+.portfolio-container  p{
+    font-size: 15px;
+    text-align: left;
+}
+
+.portfolio-item {
+    width: 300px; /* Adjust the width of each portfolio item as needed */
+    margin: 20px;
+    text-align: center;
+    color: black;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid black; /* Add a border for better visibility */
+}
+
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: black;
+}
+
+.services-container p {
+    font-size: 15px;
+    text-align: left;
+
+}
+
+
+.service-item {
+    width: 300px; /* Adjust the width of each service item as needed */
+    margin: 20px;
+    text-align: center;
+    color: black;
+}
+
+/* Add these styles to your existing CSS file */
+
+.contact-container {
+    display: flex;
+    justify-content: space-around;
+    color: black;
+}
+
+.contact-form {
+    width: 400px; /* Adjust the width of the contact form as needed */
+    margin-right: 20px;
+    color: black;
+}
+
+.contact-form h2 {
+    text-align: center;
+    color: black;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    color: black;
+}
+
+.contact-form label {
+    margin-bottom: 5px;
+    color: black;
+}
+
+.contact-form input,
+.contact-form textarea {
+    margin-bottom: 15px;
+    padding: 8px;
+}
+
+.contact-form button {
+    background-color: #e8491d;
+    color: black;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.contact-info {
+    width: 300px; /* Adjust the width of the contact information as needed */
+}
+
+.contact-info h2 {
+    text-align: center;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+}
